@@ -12,4 +12,5 @@ COPY target/prebid-server.jar ./
 EXPOSE 8080
 EXPOSE 8060
 
+
 ENTRYPOINT [ "/app/prebid-server/run.sh" ]
