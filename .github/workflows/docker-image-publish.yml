@@ -2,7 +2,7 @@ name: Publish Docker image for new tag/release
 
 on:
   release:
-    types: [published]
+    types: [released]
 
 env:
   REGISTRY: ghcr.io
